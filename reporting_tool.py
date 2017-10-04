@@ -113,6 +113,7 @@ def show_results(output_title, output_format, results):
     print output
 
 
-top_articles()
-top_authors()
-top_error_days()
+if __name__ == "__main__":
+    top_articles()
+    top_authors()
+    top_error_days()
